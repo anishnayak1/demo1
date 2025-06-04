@@ -4,9 +4,9 @@
   tasks:
   - name: Copy the artifact to the target location
     become: true
-    become_user: student
+    become_user: anish
     become_method: su
     copy:
-          src: "/var/lib/jenkins/workspace/<pipe>/target/my-app-1.0-SNAPSHOT.jar"
-          dest: "/home/student/t.jar"
+          src: "/var/lib/jenkins/workspace/pipe/target/my-app-1.0-SNAPSHOT.jar"
+          dest: "/home/anish/t.jar"
 
