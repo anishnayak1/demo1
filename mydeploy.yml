@@ -7,6 +7,6 @@
     become_user: anish
     become_method: su
     copy:
-          src: "/var/lib/jenkins/workspace/p8/target/my-app-1.0-SNAPSHOT.jar"
+          src: "/var/lib/jenkins/workspace/i8/target/my-app-1.0-SNAPSHOT.jar"
           dest: "/home/anish/t.jar"
 
